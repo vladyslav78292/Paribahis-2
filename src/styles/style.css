@@ -303,6 +303,10 @@ footer > div {
     width: auto;
     margin-left: 0;
   }
+
+  .image_container {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 900px) {
@@ -318,6 +322,14 @@ footer > div {
 @media (max-width: 720px) {
   header > div {
     flex-direction: column;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  ul {
+    padding-left: 10px;
   }
 
   .center_image {
